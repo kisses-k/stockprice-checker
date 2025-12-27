@@ -4,17 +4,20 @@
 	"description": "InfoSec project for freeCodeCamp",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"test": "mocha tests/2_functional-tests.js --ui tdd --timeout 5000"
 	},
 	"dependencies": {
 		"body-parser": "^1.15.2",
 		"chai": "^4.2.0",
 		"chai-http": "^3.0.0",
 		"cors": "^2.8.1",
-		"dotenv": "^8.2.0",
+		"dotenv": "^8.6.0",
 		"express": "^4.14.0",
-		"helmet": "^3.1.0",
-		"mocha": "^3.2.0"
+		"helmet": "^3.23.3",
+		"mocha": "^3.2.0",
+		"mongoose": "^9.0.2",
+		"node-fetch": "^2.7.0"
 	},
 	"repository": {
 		"type": "git",
